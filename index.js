@@ -13,7 +13,7 @@ function nestedTarget(){
     elements = nextElement;
     nextElement = elements.children[0];
   }
-  
+  return elements;
  }
 
  function increaseRankBy(n) {
